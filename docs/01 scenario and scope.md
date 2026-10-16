@@ -1,16 +1,26 @@
-# 1. Project Overview
+# 01 — Scenario and Scope
+
+**Project:** Northwind Health | IAM Access Review  
+**Document Reference:** IAM-DOC-01-SC  
+**Version:** 1.0  
+**Status:** Draft — Portfolio Case Study  
+**Assessment Date:** 5 October 2026  
+**Classification:** Public — Fictional Data
+
+---
+---
+# 2. Project Overview
 This project simulates an IAM access review for Northwind Health, a fictional healthcare SaaS company, to evaluate user access, identify security risks, and recommend remediation and preventive controls.
-# 2. Organisation
+# 3. Organisation
 | Project Attribute | Description |
 |---|---|
-| Project | IAM Access Review and Remediation |
 | Organization | Northwind Health (fictional) |
 | Industry | Healthcare Technology |
 | Organization Size | Approximately 120 employees |
 | Customer Base | Approximately 400 clinics |
 | Primary Focus | Identity and Access Management |
 | Assessment Status | In Development |
-# 3. Business Problem
+# 4. Business Problem
 Northwind Health needs to ensure workforce access aligns with job responsibilities throughout the identity lifecycle. Gaps in provisioning, deprovisioning, least privilege, and access reviews could expose sensitive health data and create operational risks.
 
 The assessment addresses four key questions:
@@ -20,13 +30,13 @@ The assessment addresses four key questions:
 |  Should they have access?  |  Evaluate permissions against employment status and documented job responsibilities. |
 |  What needs attention?  |  identify excessive, inappropriate, shared, orphaned, or insufficiently justified access.  |
 |  How do we prevent recurrence?  |  Recommend improvements to provisioning, access reviews, and offboarding.  |
-## 4. Assessment Objectives
+## 5. Assessment Objectives
 
 - Reconcile HR records with application accounts and assigned permissions.
 - Identify excessive access, orphaned accounts, and provisioning/deprovisioning gaps.
 - Evaluate least privilege, RBAC, and segregation of duties to reduce business risk.
 - Prioritize remediation based on security risk, business impact, and protection of sensitive health data.
-## 5. Scope of Review
+## 6. Scope of Review
 
 The assessment covers seven patient administration portal accounts, reconciled against five HR records to evaluate access appropriateness and identity lifecycle management.
 
@@ -40,7 +50,7 @@ The assessment covers seven patient administration portal accounts, reconciled a
 | `pnair` | Finance user's access and business justification |
 | `dholt` | Administrative privileges and least privilege |
 
-# 6. Expected Deliverables
+# 7. Expected Deliverables
 
 | Deliverable | Purpose |
 |---|---|
