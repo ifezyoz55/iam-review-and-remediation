@@ -31,17 +31,18 @@ Northwind Health is a fictional US healthcare SaaS organization supporting appro
 | `support-shared` | Shared credentials stored in the team wiki. | Medium |
 | `dholt` | Admin privileges require business justification. | Review required |
 
-# Project Documentation
+## Project Documentation
+
 | Document | Description |
 |---|---|
-| 01 — Scenario and Scope | Business problem, objectives, and assessment boundaries. |
-| 02 — Access Review Methodology | Review criteria, evidence validation, and risk assessment. |
-| 03 — Identity and System Inventory | HR records, portal accounts, and identity reconciliation. |
-| 04 — Access Review Results | Account-level observations and recommended actions. |
-| 05 — Findings and Risk Register | Severity, potential business impact, and risk treatment. |
-| 06 — Remediation and Preventive Controls | Corrective actions, preventive controls, and verification evidence. |
-| 07 — Access Review Workflow | Visual workflow for reviewing and remediating access. |
-| 08 — Executive Summary | Key findings, priorities, and management recommendations. |
+| [01 — Scenario and Scope](docs/01%20scenario%20and%20scope.md) | Business problem, objectives, and assessment boundaries. |
+| [02 — Access Review Methodology](docs/02%20access%20review%20methodology.md) | Review criteria, evidence validation, and risk assessment. |
+| [03 — Identity and System Inventory](docs/03-identity-and-system-inventory.md) | HR records, portal accounts, and identity reconciliation. |
+| [04 — Access Review Results](docs/04%20access%20review%20results.md) | Account-level findings and recommended actions. |
+| [05 — Findings and Risk Register](docs/05%20findings%20and%20risk%20register.md) | Severity, business impact, and risk treatment. |
+| [06 — Remediation and Preventive Controls](docs/06%20remediation%20and%20preventive%20controls.md) | Corrective actions, preventive controls, and verification. |
+| [07 — Access Review Workflow](docs/07%20access%20review%20workflow.md) | Visual IAM access review workflow. |
+| [08 — Executive Summary](docs/08-executive-summary.md) | Key findings, priorities, and management recommendations. |
 
 # Expected Outcomes
 The recommendations aim to strengthen identity lifecycle management, enforce least privilege, improve account accountability, and reduce the risk of unnecessary access to sensitive healthcare information.
