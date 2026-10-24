@@ -5,6 +5,7 @@
 **Version:** 1.0  
 **Status:** Draft — Portfolio Case Study  
 **Assessment Date:** 5 October 2026  
+**Classification:** Public — Fictional Data
 
 ---
 # 1. Review Approach
